@@ -1,0 +1,44 @@
+
+  A/c     --->transaction(shopping)  synchronized transaction(){ }
+ 
+  10000   --->Atm withdrawl
+
+
+
+Bookmyshow: static synchronized bookticket(){
+
+             }
+                synchonized{  }
+
+
+Json format:
+----------------------
+[
+  {"product_id":1234,
+    "product_name":"Shirt",
+     "product_category":"clothes",
+      "price":500,
+       "ratings":4,
+        "reviews":[{"customer_id":321,"customer_name":"Shiva","video":"url_link"},
+{"customer_id":322,"customer_name":"Sari","video":"url_link"},
+{"customer_id":323,"customer_name":"Kiran","video":"url_link"}
+]
+},
+{"product_id":1235,
+    "product_name":"pant",
+     "product_category":"clothes",
+      "price":700,
+       "ratings":3,
+        "reviews":[{"customer_id":321,"customer_name":"Shiva","video":"url_link"},
+{"customer_id":322,"customer_name":"Sari","video":"url_link"},
+{"customer_id":323,"customer_name":"Kiran","video":"url_link"}]
+},
+{"product_id":1236,
+    "product_name":"scarf",
+     "product_category":"clothes",
+      "price":300,
+       "ratings":3,
+        "reviews":[{"customer_id":321,"customer_name":"Shiva","video":"url_link"},
+{"customer_id":322,"customer_name":"Sari","video":"url_link"},
+{"customer_id":323,"customer_name":"Kiran","video":"url_link"}]
+}]
